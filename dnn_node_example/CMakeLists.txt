@@ -55,7 +55,7 @@ endif ()
 # x3|rdkultra|x86
 set(PREFIX_PATH x3)
 set(SYS_ROOT ${CMAKE_SYSROOT})
-
+set(PLATFORM_X5 "ON")
 if(PLATFORM_X3)
   message("build platform X3")
   add_definitions(-DPLATFORM_X3)
